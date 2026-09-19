@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+*.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Google/Gemini credentials
+service-account*.json
+*-credentials.json
+credentials.json
+token*.json
+
+# Logs and local secrets
+*.log
+.secrets/
+data/
